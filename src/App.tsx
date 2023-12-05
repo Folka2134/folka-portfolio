@@ -6,6 +6,7 @@ import "./App.css";
 import About from "./components/About";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
+import Projects from "./components/Projects";
 
 function App() {
   const particlesInit = useCallback(async (engine: Engine) => {
@@ -80,8 +81,11 @@ function App() {
       <div className="relative z-20 mx-10 pt-5 xl:pt-0">
         <Header />
         <main className="my-5 h-full rounded-2xl  xl:my-12">
-          <About />
-          <Banner />
+          <section className="flex min-h-screen flex-col justify-center">
+            <About />
+            <Banner />
+          </section>
+          <Projects />
         </main>
       </div>
     </div>
