@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Spac3Tech';
+  src: url('../src/assets/fonts/Spac3Tech.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
