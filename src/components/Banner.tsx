@@ -20,7 +20,7 @@ const Banner = () => {
           className: "opacity-80 transition-all duration-500",
         }}
       >
-        <div className="mt-4 overflow-hidden rounded-2xl border-[1px] border-[#0068B1] bg-[#0068B1] bg-opacity-25 p-10 ">
+        <div className="mt-4 overflow-hidden rounded-2xl bg-[#0068B1] bg-opacity-25 p-10 ">
           <div className="flex w-full flex-wrap justify-around text-2xl md:text-3xl">
             <div className="group p-5 text-center">
               <FaHtml5 className="hover:text-[#e94546]" />
