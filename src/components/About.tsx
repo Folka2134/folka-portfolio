@@ -10,7 +10,7 @@ const About = () => {
     const scrollY = window.scrollY;
 
     // Define the trigger point (adjust as needed)
-    const triggerPoint = window.innerHeight * 0.1;
+    const triggerPoint = window.innerHeight * 0.5;
 
     // Check if the element is in the viewport
     if (scrollY > triggerPoint) {

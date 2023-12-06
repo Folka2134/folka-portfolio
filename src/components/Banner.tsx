@@ -22,28 +22,29 @@ const Banner = () => {
     const scrollY = window.scrollY;
 
     // Define the trigger point (adjust as needed)
-    const triggerPoint = window.innerHeight * 0.1;
+    const triggerPoint = window.innerHeight * 0.5;
 
     // Check if the element is in the viewport
     if (scrollY > triggerPoint) {
-      controls.start({ y: 0, opacity: 1 });
+      controls.start({ x: 0, opacity: 1 });
     }
   };
 
-  const isMobile = window.innerWidth < 768; //Add the width you want to check for here (now 768px)
+  // if (!isMobile) {
+  //   viewVariants = {
+  //     duration: 0.8,
+  //     type: "spring",
+  //     stiffness: 70,
+  //   };
+  //   initialVariants = { x: "-200%", opacity: 0 };
+  // }
+  const isMobile = window.innerWidth < 768;
 
   let viewVariants = {};
   let initialVariants = {};
   if (!isMobile) {
-    viewVariants = {
-      duration: 0.8,
-      type: "spring",
-      stiffness: 70,
-    };
-    initialVariants = {
-      y: "200%",
-      opacity: 0,
-    };
+    viewVariants = { duration: 0.8, type: "spring", stiffness: 30 };
+    initialVariants = { x: "-200%", opacity: 0 };
   }
 
   // Attach the scroll event listener on mount
@@ -55,8 +56,8 @@ const Banner = () => {
   return (
     <motion.div
       initial={initialVariants}
-      variants={viewVariants}
       animate={controls}
+      transition={viewVariants}
     >
       <div>
         <IconContext.Provider
