@@ -5,8 +5,7 @@ const About = () => {
       <p className="text-md text-[#212832] xl:text-2xl">
         I'm Otis, AKA Folka. A fresh software developer from Brighton, UK.{" "}
         <br />
-        Currently on the hunt for coding oppotunities that will expand my
-        knowledge.
+        Currently on the hunt for coding oppotunities to expand my knowledge.
       </p>
     </section>
   );
