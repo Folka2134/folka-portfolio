@@ -1,13 +1,13 @@
 import { IconContext } from "react-icons";
 
 import {
-  FaHtml5,
+  // FaHtml5,
   FaJsSquare,
   FaReact,
   FaNodeJs,
   FaPython,
   // FaGitAlt,
-  FaCss3Alt,
+  // FaCss3Alt,
   FaGitAlt,
 } from "react-icons/fa";
 import { SiPostgresql, SiExpress, SiMongodb } from "react-icons/si";
