@@ -7,6 +7,7 @@ import About from "./components/About";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   const particlesInit = useCallback(async (engine: Engine) => {
@@ -86,6 +87,7 @@ function App() {
             <Banner />
           </section>
           <Projects />
+          <Footer />
         </main>
       </div>
     </div>
