@@ -8,6 +8,7 @@ import {
   FaPython,
   // FaGitAlt,
   FaCss3Alt,
+  FaGitAlt,
 } from "react-icons/fa";
 import { SiPostgresql, SiExpress, SiMongodb } from "react-icons/si";
 
@@ -21,8 +22,8 @@ const Banner = () => {
         }}
       >
         <div className="mt-4 overflow-hidden rounded-2xl bg-[#0068B1] bg-opacity-25 p-10 ">
-          <div className="flex w-full flex-wrap justify-around text-2xl md:text-3xl">
-            <div className="group p-5 text-center">
+          <div className="flex w-full flex-wrap justify-center text-2xl md:text-3xl">
+            {/* <div className="group p-5 text-center">
               <FaHtml5 className="hover:text-[#e94546]" />
               <span className="transition-all duration-500 group-hover:text-white">
                 HTML
@@ -33,7 +34,7 @@ const Banner = () => {
               <span className="transition-all duration-500 group-hover:text-white">
                 CSS
               </span>
-            </div>
+            </div> */}
             <div className="group p-5 text-center">
               <FaJsSquare className="hover:text-[#f7df1e]" />
               <span className="transition-all duration-500 group-hover:text-white">
@@ -74,6 +75,12 @@ const Banner = () => {
               <SiMongodb className="hover:text-[#4c8e42]" />
               <span className="transition-all duration-500 group-hover:text-white">
                 MongoDB
+              </span>
+            </div>
+            <div className="group group p-5 text-center">
+              <FaGitAlt className="hover:text-[#f05033]" />
+              <span className="transition-all duration-500 group-hover:text-white">
+                Git
               </span>
             </div>
           </div>
