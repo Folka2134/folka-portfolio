@@ -14,9 +14,10 @@ module.exports = {
       screens: {
         "2xl": "1400px",
       },
-      fontFamily: {
-        header: ["Spac3Tech", "sans-serif"],
-      },
+    },
+    fontFamily: {
+      header: ["Spac3Tech"],
+      body: ["lato"],
     },
     extend: {
       keyframes: {
