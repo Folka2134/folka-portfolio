@@ -30,6 +30,22 @@ const Banner = () => {
     }
   };
 
+  const isMobile = window.innerWidth < 768; //Add the width you want to check for here (now 768px)
+
+  let viewVariants = {};
+  let initialVariants = {};
+  if (!isMobile) {
+    viewVariants = {
+      duration: 0.8,
+      type: "spring",
+      stiffness: 70,
+    };
+    initialVariants = {
+      y: "200%",
+      opacity: 0,
+    };
+  }
+
   // Attach the scroll event listener on mount
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -38,9 +54,9 @@ const Banner = () => {
 
   return (
     <motion.div
-      initial={{ y: "200%", opacity: 0 }}
+      initial={initialVariants}
+      variants={viewVariants}
       animate={controls}
-      transition={{ duration: 1.2, type: "spring", stiffness: 70 }}
     >
       <div>
         <IconContext.Provider

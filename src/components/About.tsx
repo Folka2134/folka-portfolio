@@ -18,6 +18,14 @@ const About = () => {
     }
   };
 
+  const isMobile = window.innerWidth < 768;
+  let viewVariants = {};
+  let initialVariants = {};
+  if (!isMobile) {
+    viewVariants = { duration: 0.8 };
+    initialVariants = { x: "-200%", opacity: 0 };
+  }
+
   // Attach the scroll event listener on mount
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -26,9 +34,9 @@ const About = () => {
 
   return (
     <motion.div
-      initial={{ x: "-200%", opacity: 0 }}
+      initial={initialVariants}
       animate={controls}
-      transition={{ duration: 0.8 }}
+      transition={viewVariants}
     >
       <section
         id="about"
