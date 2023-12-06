@@ -81,8 +81,11 @@ function App() {
 
       <div className="relative z-20 mx-10 pt-5 xl:pt-0">
         <Header />
-        <main className="my-5 h-full rounded-2xl  xl:my-12">
-          <section className="flex min-h-screen flex-col justify-center">
+        <main className="font-body my-5 h-full  rounded-2xl xl:my-12">
+          <section
+            id="about-container"
+            className="flex min-h-screen flex-col justify-center"
+          >
             <About />
             <Banner />
           </section>

@@ -4,7 +4,24 @@
 
 @font-face {
   font-family: 'Spac3Tech';
-  src: url('../src/assets/fonts/Spac3Tech.ttf') format('truetype');
+  src: url('../src/assets/fonts/Spac3Tech-Dg7E.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url('../src/assets/fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer components {
+  .tag {
+    @apply inline-block px-3 py-1 text-sm font-semibold mr-2 mb-2 rounded-lg bg-black transition-all duration-300 ease-linear shadow-2xl;
+  }
+
+  .button {
+    @apply inline-block mx-1 my-1 px-10 py-3 rounded-lg cursor-pointer transition-all duration-300 ease-linear shadow-2xl
+  }
 }
