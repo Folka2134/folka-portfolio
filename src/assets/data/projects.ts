@@ -1,7 +1,7 @@
 export const projectData = [
   {
     title: "Face Detection App",
-    image: "/src/assets/images/smartbrain_preview2.png",
+    image: "/static/images/smartbrain_preview2.png",
     description: "This app was created to 'detect' faces within an image and also update a signed in user's 'rank'.",
     functionality: "The detection is performed by pulling data from an api and the users are stored within my own database.",
     improvements: ["Implement multi-face detection", "Implement user score board feature", "Adjust design for mobile"],
@@ -11,7 +11,7 @@ export const projectData = [
   },
   {
     title: "Folka Marketplace",
-    image: "/src/assets/images/folka-market_preview.png",
+    image: "/static/images/folka-market_preview.png",
     description: "An online market place specifically for video games, built for users to sell/trade their old or new games.",
     functionality: "This site allows users to view and purchase games listed by other users. A typical CRUD app accompanied by user authentication and payment functionality.",
     improvements: ["Allow users to search by location", "Integration with 'igdb' API", "Update form requires work."],
@@ -21,7 +21,7 @@ export const projectData = [
   },
   {
     title: "Folka Scraper",
-    image: "/src/assets/images/folka-scraper_preview.png",
+    image: "/static/images/folka-scraper_preview.png",
     description: "An Amazon product scraper used to find and keep record of the current price of products.",
     functionality: "This app helps users find deals of their chosen products simply by entering the product's URL.",
     improvements: ["Develop the ability to function with various Amazon domains", "Implement email system to notify users of price drops"],
@@ -31,7 +31,7 @@ export const projectData = [
   },
   {
     title: "Staff Party",
-    image: "/src/assets/images/staffparty_preview.png",
+    image: "/static/images/staffparty_preview.png",
     description: "A site built for local band 'Staff Party'",
     functionality: "Band promotion and ability for user to purchase merch directly from the band.",
     improvements: ["Display upcoming gigs", "Design improvements"],
@@ -41,7 +41,7 @@ export const projectData = [
   },
   {
     title: "Folka Countries",
-    image: "/src/assets/images/folka-countries_preview.png",
+    image: "/static/images/folka-countries_preview.png",
     description: "Find information about major cities all over the world.",
     functionality: "Allows users to search or filter regions and countries to view their main cities and view addition information.",
     improvements: ["Implement live weather information", "Design improvements"],
@@ -49,6 +49,4 @@ export const projectData = [
     liveUrl: "https://folka-countries.vercel.app/",
     githubUrl: "https://github.com/Folka2134/folka-countries",
   },
-
-
 ]
