@@ -9,5 +9,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/folka-portfolio/'
+  base: "https://folka2134.github.io/folka-portfolio/"
 })
