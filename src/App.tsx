@@ -73,9 +73,9 @@ function App() {
         options={particleOptions}
       />
 
-      <div className="relative z-20 mx-10 pt-5 xl:pt-0">
+      <div className="relative z-20  pt-5 xl:pt-0">
         <Header />
-        <main className="my-5 h-full rounded-2xl  font-body xl:my-12">
+        <main className="mx-10 my-5 h-full  rounded-2xl font-body xl:my-12">
           <section
             id="about-container"
             className="flex flex-col justify-center gap-5"
