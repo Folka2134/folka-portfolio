@@ -75,7 +75,7 @@ function App() {
 
       <div className="relative z-20  pt-5 xl:pt-0">
         <Header />
-        <main className="mx-10 my-5 h-full  rounded-2xl font-body xl:my-12">
+        <main className="mx-1 my-5 h-full rounded-2xl  font-body md:mx-10 xl:my-12">
           <section
             id="about-container"
             className="flex flex-col justify-center gap-5"
