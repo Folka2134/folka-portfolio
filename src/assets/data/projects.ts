@@ -49,4 +49,15 @@ export const projectData = [
     liveUrl: "https://folka2134.github.io/folka-fit/",
     githubUrl: "https://github.com/Folka2134/folka-fit",
   },
+  {
+    title: "Folka Travel",
+    image: "/static/images/folka-travel_preview.png",
+    description: "A travel planning application that allows users to plan their trips and share them with others.",
+    functionality: "The app allows users to search for locations, flights and hotels to plan their trips. Users can also share images and reviews of their trips.",
+    improvements: ["Social media section", "Flight booking", "Hotel booking", "User reviews"],
+    tags: ["Nextjs", "Tailwindcss", "API", "Clerk", "Mongodb"],
+    liveUrl: "https://folka-travel.vercel.app/",
+    githubUrl: "https://github.com/Folka2134/folka_travel",
+  },
 ]
+
