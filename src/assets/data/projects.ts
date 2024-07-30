@@ -1,19 +1,34 @@
 export const projectData = [
+  // {
+  //   title: "Face Detection App",
+  //   image: "/static/images/smartbrain_preview2.png",
+  //   description:
+  //     "This app was created to 'detect' faces within an image and also update a signed in user's 'rank'.",
+  //   functionality:
+  //     "The detection is performed by pulling data from an api and the users are stored within my own database.",
+  //   improvements: [
+  //     "Implement multi-face detection",
+  //     "Implement user score board feature",
+  //     "Adjust design for mobile",
+  //   ],
+  //   tags: ["React", "Nodejs", "Expressjs", "Prostgresql"],
+  //   liveUrl: "https://folka2134.github.io/face-detection-app/",
+  //   githubUrl: "https://github.com/Folka2134/face-detection-app",
+  // },
   {
-    title: "Face Detection App",
-    image: "/static/images/smartbrain_preview2.png",
+    title: "Algorithm Visualizer",
+    image: "/static/images/pathfinder_preview.png",
     description:
-      "This app was created to 'detect' faces within an image and also update a signed in user's 'rank'.",
+      "An algorithm visualizer providing users with a visual representation of how various algorithms work.",
     functionality:
-      "The detection is performed by pulling data from an api and the users are stored within my own database.",
+      "This app allows users to select an algorithm and see how it works in real time with on-screen visualizations. Users can also adjust the speed of the animation.",
     improvements: [
-      "Implement multi-face detection",
-      "Implement user score board feature",
-      "Adjust design for mobile",
+      "Add additional algorithms",
+      "Path finding and sorting algorithm explainations",
     ],
-    tags: ["React", "Nodejs", "Expressjs", "Prostgresql"],
-    liveUrl: "https://folka2134.github.io/face-detection-app/",
-    githubUrl: "https://github.com/Folka2134/face-detection-app",
+    tags: ["React", "Tailwindcss"],
+    liveUrl: "https://algorithm-visualizer-blue-five.vercel.app/",
+    githubUrl: "https://github.com/Folka2134/algorithm_visualizer",
   },
   {
     title: "Folka Marketplace",
@@ -73,21 +88,4 @@ export const projectData = [
   //   liveUrl: "https://folka-travel.vercel.app/",
   //   githubUrl: "https://github.com/Folka2134/folka_travel",
   // },
-  {
-    title: "Algorithm Visualizer",
-    image: "/static/images/pathfinder_preview.png",
-    description:
-      "A travel planning application that allows users to plan their trips and share them with others.",
-    functionality:
-      "The app allows users to search for locations, flights and hotels to plan their trips. Users can also share images and reviews of their trips.",
-    improvements: [
-      "Social media section",
-      "Flight booking",
-      "Hotel booking",
-      "User reviews",
-    ],
-    tags: ["Nextjs", "Tailwindcss", "API", "Clerk", "Mongodb"],
-    liveUrl: "https://folka-travel.vercel.app/",
-    githubUrl: "https://github.com/Folka2134/folka_travel",
-  },
 ];
