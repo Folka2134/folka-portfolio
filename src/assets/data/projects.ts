@@ -1,35 +1,35 @@
 export const projectData = [
-  // {
-  //   title: "Face Detection App",
-  //   image: "/static/images/smartbrain_preview2.png",
-  //   description:
-  //     "This app was created to 'detect' faces within an image and also update a signed in user's 'rank'.",
-  //   functionality:
-  //     "The detection is performed by pulling data from an api and the users are stored within my own database.",
-  //   improvements: [
-  //     "Implement multi-face detection",
-  //     "Implement user score board feature",
-  //     "Adjust design for mobile",
-  //   ],
-  //   tags: ["React", "Nodejs", "Expressjs", "Prostgresql"],
-  //   liveUrl: "https://folka2134.github.io/face-detection-app/",
-  //   githubUrl: "https://github.com/Folka2134/face-detection-app",
-  // },
   {
-    title: "Algorithm Visualizer",
-    image: "/static/images/pathfinder_preview.png",
+    title: "Face Detection App",
+    image: "/static/images/smartbrain_preview2.png",
     description:
-      "An algorithm visualizer providing users with a visual representation of how various algorithms work.",
+      "This app was created to 'detect' faces within an image and also update a signed in user's 'rank'.",
     functionality:
-      "This app allows users to select an algorithm and see how it works in real time with on-screen visualizations. Users can also adjust the speed of the animation.",
+      "The detection is performed by pulling data from an api and the users are stored within my own database.",
     improvements: [
-      "Add additional algorithms",
-      "Path finding and sorting algorithm explainations",
+      "Implement multi-face detection",
+      "Implement user score board feature",
+      "Adjust design for mobile",
     ],
-    tags: ["React", "Tailwindcss"],
-    liveUrl: "https://algorithm-visualizer-blue-five.vercel.app/",
-    githubUrl: "https://github.com/Folka2134/algorithm_visualizer",
+    tags: ["React", "Nodejs", "Expressjs", "Prostgresql"],
+    liveUrl: "https://folka2134.github.io/face-detection-app/",
+    githubUrl: "https://github.com/Folka2134/face-detection-app",
   },
+  // {
+  //   title: "Algorithm Visualizer",
+  //   image: "/static/images/pathfinder_preview.png",
+  //   description:
+  //     "An algorithm visualizer providing users with a visual representation of how various algorithms work.",
+  //   functionality:
+  //     "This app allows users to select an algorithm and see how it works in real time with on-screen visualizations. Users can also adjust the speed of the animation.",
+  //   improvements: [
+  //     "Add additional algorithms",
+  //     "Path finding and sorting algorithm explainations",
+  //   ],
+  //   tags: ["React", "Tailwindcss"],
+  //   liveUrl: "https://algorithm-visualizer-blue-five.vercel.app/",
+  //   githubUrl: "https://github.com/Folka2134/algorithm_visualizer",
+  // },
   {
     title: "Folka Marketplace",
     image: "/static/images/folka-market_preview.png",
