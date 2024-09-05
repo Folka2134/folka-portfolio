@@ -63,7 +63,7 @@ export const projectData = [
       "A car rental service that allows users to rent cars for a specific period of time.",
     functionality:
       "This site allows users to view and rent cars listed by other users. A typical CRUD app accompanied by user authentication.",
-    improvements: ["Payment functionality", "User reviews"],
+    improvements: ["Implement user reviews", "Order confirmation emails"],
     tags: ["NextJS", "Clerk", "Mongodb"],
     liveUrl: "https://folka-cars.vercel.app/",
     githubUrl: "https://github.com/Folka2134/folka-cars",
