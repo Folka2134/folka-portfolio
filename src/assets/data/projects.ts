@@ -1,20 +1,36 @@
 export const projectData = [
-  // {
-  //   title: "Face Detection App",
-  //   image: "/static/images/smartbrain_preview2.png",
-  //   description:
-  //     "This app was created to 'detect' faces within an image and also update a signed in user's 'rank'.",
-  //   functionality:
-  //     "The detection is performed by pulling data from an api and the users are stored within my own database.",
-  //   improvements: [
-  //     "Implement multi-face detection",
-  //     "Implement user score board feature",
-  //     "Adjust design for mobile",
-  //   ],
-  //   tags: ["React", "Nodejs", "Expressjs", "Prostgresql"],
-  //   liveUrl: "https://folka2134.github.io/face-detection-app/",
-  //   githubUrl: "https://github.com/Folka2134/face-detection-app",
-  // },
+  {
+    title: "Face Detection App",
+    image: "/static/images/smartbrain_preview2.png",
+    description:
+      "This app was created to 'detect' faces within an image and also update a signed in user's 'rank'.",
+    functionality:
+      "The detection is performed by pulling data from an api and the users are stored within my own database.",
+    improvements: [
+      "Implement multi-face detection",
+      "Implement user score board feature",
+      "Adjust design for mobile",
+    ],
+    tags: ["React", "Nodejs", "Expressjs", "Prostgresql"],
+    liveUrl: "https://folka2134.github.io/face-detection-app/",
+    githubUrl: "https://github.com/Folka2134/face-detection-app",
+  },
+  {
+    title: "Folka Calendar",
+    image: "/static/images/folkaCalendar_preview.png",
+    description:
+      "Google Calendar clone, fully functional with all main features.",
+    functionality:
+      "Use this calendar to schedule events, birthdays, tasks and work router. Multiple calendar creation and calendar upload available.",
+    improvements: [
+      "Allow events to be repeated",
+      "Implement event notifications",
+      "Add event specific colours",
+    ],
+    tags: ["HTML", "CSS", "JavaScript"],
+    liveUrl: "https://folka-calendar.vercel.app/",
+    githubUrl: "https://github.com/Folka2134/folka-calendar/",
+  },
   // {
   //   title: "Algorithm Visualizer",
   //   image: "/static/images/pathfinder_preview.png",
@@ -30,22 +46,22 @@ export const projectData = [
   //   liveUrl: "https://algorithm-visualizer-blue-five.vercel.app/",
   //   githubUrl: "https://github.com/Folka2134/algorithm_visualizer",
   // },
-  {
-    title: "Folka Marketplace",
-    image: "/static/images/folka-market_preview.png",
-    description:
-      "An online market place specifically for video games, built for users to sell/trade their old or new games.",
-    functionality:
-      "This site allows users to view and purchase games listed by other users. A typical CRUD app accompanied by user authentication and payment functionality.",
-    improvements: [
-      "Allow users to search by location",
-      "Integration with 'igdb' API",
-      "Update form requires work.",
-    ],
-    tags: ["NextJS", "API", "Mongodb", "Clerk", "Tailwindcss"],
-    liveUrl: "https://folka-market.vercel.app/",
-    githubUrl: "https://github.com/Folka2134/folka-market",
-  },
+  // {
+  //   title: "Folka Marketplace",
+  //   image: "/static/images/folka-market_preview.png",
+  //   description:
+  //     "An online market place specifically for video games, built for users to sell/trade their old or new games.",
+  //   functionality:
+  //     "This site allows users to view and purchase games listed by other users. A typical CRUD app accompanied by user authentication and payment functionality.",
+  //   improvements: [
+  //     "Allow users to search by location",
+  //     "Integration with 'igdb' API",
+  //     "Update form requires work.",
+  //   ],
+  //   tags: ["NextJS", "API", "Mongodb", "Clerk", "Tailwindcss"],
+  //   liveUrl: "https://folka-market.vercel.app/",
+  //   githubUrl: "https://github.com/Folka2134/folka-market",
+  // },
   // {
   //   title: "Folka Scraper",
   //   image: "/static/images/folka-scraper_preview.png",
