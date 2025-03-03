@@ -1,5 +1,21 @@
 export const projectData = [
   {
+    title: "Sorting Visualizer",
+    image: "/static/images/folka-sorter_preview.png",
+    description:
+      "This app was created to help myself learn sorting algorithms.",
+    functionality:
+      "Press different play options to see how different sorting algorithms behave when prodivded different inputs.",
+    improvements: [
+      "Implement replay functionality",
+      "Add algorith overviews",
+      "Adjust colours for better visualization",
+    ],
+    tags: ["Nextjs, Tailwindcss"],
+    liveUrl: "https://folka-sorter-next-8c1x.vercel.app/",
+    githubUrl: "https://github.com/Folka2134/algorithm_visualizer",
+  },
+  {
     title: "Face Detection App",
     image: "/static/images/smartbrain_preview2.png",
     description:
