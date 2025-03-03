@@ -11,7 +11,7 @@ export const projectData = [
       "Add algorith overviews",
       "Adjust colours for better visualization",
     ],
-    tags: ["Nextjs, Tailwindcss"],
+    tags: ["Nextjs", "Tailwindcss"],
     liveUrl: "https://folka-sorter-next-8c1x.vercel.app/",
     githubUrl: "https://github.com/Folka2134/algorithm_visualizer",
   },
