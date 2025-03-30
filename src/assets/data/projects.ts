@@ -16,7 +16,7 @@ export const projectData = [
     githubUrl: "https://github.com/Folka2134/algorithm_visualizer",
   },
   {
-    title: "Habit Builder",
+    title: "Folka Habits",
     image: "/static/images/folka-habits_preview.png",
     description:
       "This isn't just a habit tracker, it's a habit builder which provides a framework to help achieve your goals.",
