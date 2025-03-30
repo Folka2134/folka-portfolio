@@ -16,21 +16,37 @@ export const projectData = [
     githubUrl: "https://github.com/Folka2134/algorithm_visualizer",
   },
   {
-    title: "Face Detection App",
-    image: "/static/images/smartbrain_preview2.png",
+    title: "Folka Habits",
+    image: "/static/images/folka-habits_preview.png",
     description:
-      "This app was created to 'detect' faces within an image and also update a signed in user's 'rank'.",
+      "This isn't just a habit tracker, it's a habit builder which provides a framework to help achieve your goals.",
     functionality:
-      "The detection is performed by pulling data from an api and the users are stored within my own database.",
+      "Track your study activity for various subjects. Remain consistent to increase your level!",
     improvements: [
-      "Implement multi-face detection",
+      "Implement database to store and retrieve user data",
       "Implement user score board feature",
-      "Adjust design for mobile",
+      "Add goal achievements",
     ],
-    tags: ["React", "Nodejs", "Expressjs", "Prostgresql"],
-    liveUrl: "https://folka2134.github.io/face-detection-app/",
-    githubUrl: "https://github.com/Folka2134/face-detection-app",
+    tags: ["Nextjs", "Tailwincss"],
+    liveUrl: "https://folka-habits.vercel.app/",
+    githubUrl: "https://github.com/Folka2134/folka-habits",
   },
+  // {
+  //   title: "Face Detection App",
+  //   image: "/static/images/smartbrain_preview2.png",
+  //   description:
+  //     "This app was created to 'detect' faces within an image and also update a signed in user's 'rank'.",
+  //   functionality:
+  //     "The detection is performed by pulling data from an api and the users are stored within my own database.",
+  //   improvements: [
+  //     "Implement multi-face detection",
+  //     "Implement user score board feature",
+  //     "Adjust design for mobile",
+  //   ],
+  //   tags: ["React", "Nodejs", "Expressjs", "Prostgresql"],
+  //   liveUrl: "https://folka2134.github.io/face-detection-app/",
+  //   githubUrl: "https://github.com/Folka2134/face-detection-app",
+  // },
   {
     title: "Folka Calendar",
     image: "/static/images/folkaCalendar_preview.png",
