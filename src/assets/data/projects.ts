@@ -94,16 +94,21 @@ export const projectData = [
   //   liveUrl: "https://folka-market.vercel.app/",
   //   githubUrl: "https://github.com/Folka2134/folka-market",
   // },
-  // {
-  //   title: "Folka Scraper",
-  //   image: "/static/images/folka-scraper_preview.png",
-  //   description: "An Amazon product scraper used to find and keep record of the current price of products.",
-  //   functionality: "This app helps users find deals of their chosen products simply by entering the product's URL.",
-  //   improvements: ["Develop the ability to function with various Amazon domains", "Implement email system to notify users of price drops"],
-  //   tags: ["NextJS", "API", "Mongodb", "Axios"],
-  //   liveUrl: "https://folka-scraper.vercel.app/",
-  //   githubUrl: "https://github.com/Folka2134/folka-scraper",
-  // },
+  {
+    title: "Folka Leet",
+    image: "/static/images/folka-leet_preview.png",
+    description:
+      "A productivity tool designed to help users on their leetcode journey by using spaced repetition.",
+    functionality:
+      "Automatically schedules a currated list of leetcode questions to review at user specific intervals.",
+    improvements: [
+      "Implement state context to avoid page reloading when adding new question.",
+      "Gamify by adding user statistics and streaks.",
+    ],
+    tags: ["Nextjs", "Supabase", "Tailwindcss"],
+    liveUrl: "folka-leet.vercel.app",
+    githubUrl: "https://github.com/Folka2134/folka-leet",
+  },
   {
     title: "Folka Cars",
     image: "/static/images/folka-cars_preview.png",
@@ -112,7 +117,7 @@ export const projectData = [
     functionality:
       "This site allows users to view and rent cars listed by other users. A typical CRUD app accompanied by user authentication.",
     improvements: ["Implement user reviews", "Order confirmation emails"],
-    tags: ["NextJS", "Clerk", "Mongodb"],
+    tags: ["Nextjs", "Clerk", "Mongodb"],
     liveUrl: "https://folka-cars.vercel.app/",
     githubUrl: "https://github.com/Folka2134/folka-cars",
   },
