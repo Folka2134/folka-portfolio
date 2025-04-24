@@ -11,7 +11,11 @@ const Projects = () => {
         {projectData.map((project) => (
           <div className="flex flex-col rounded-2xl bg-white bg-opacity-95 shadow-md transition-all duration-300 ease-linear hover:shadow-2xl">
             <a href={project.liveUrl} target="_blank" rel="noreferrer">
-              <img src={project.image} alt={project.title} />
+              <img
+                src={project.image}
+                alt={project.title}
+                className="h-80 w-full"
+              />
             </a>
             <div className="flex h-full flex-col justify-between">
               <div>

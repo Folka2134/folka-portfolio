@@ -106,7 +106,7 @@ export const projectData = [
       "Gamify by adding user statistics and streaks.",
     ],
     tags: ["Nextjs", "Supabase", "Tailwindcss"],
-    liveUrl: "folka-leet.vercel.app",
+    liveUrl: "https://folka-leet.vercel.app",
     githubUrl: "https://github.com/Folka2134/folka-leet",
   },
   {
